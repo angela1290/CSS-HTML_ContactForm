@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+    background: rgb(28, 0, 36);
+    background: linear-gradient(30deg, rgba(28, 0, 36, 0.5525560566023284) 0%, rgba(118, 9, 121, 1) 27%, rgba(255, 0, 155, 0.4797269249496674) 100%);
+    font-family: Raleway, sans-serif;
+
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+
+
+}
+
+form {
+
+    width: 700px;
+    height: 750px;
+    padding: 20px;
+
+    background-color: white;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    margin: 50px auto;
+    max-width: 500px;
+    height: 650px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.email_phone {
+    width: 100%;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px;
+}
+
+#submit{
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+ #Button {
+     border-radius: 20px;
+     border:0;
+     padding:10px;
+     width: 150px;
+     background-color: #302F2F;
+     color: white;
+ }
+
+
+.name {
+    display: flex;
+    justify-content: space-between;
+
+}
+#first {
+    width: 49%;
+}
+
+#last {
+    width: 49%;
+}
+
+#message {
+    width: 100%;
+}
+
